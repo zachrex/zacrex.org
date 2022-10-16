@@ -8,9 +8,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         
-        <p>
-          Website Coming Soon...
-        </p>
+        <header class = "loading">
+          Website Coming Soon
+        </header>
         
       </header>
     </div>

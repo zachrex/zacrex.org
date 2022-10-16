@@ -24,9 +24,6 @@
   color: rgb(21, 20, 20);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +31,33 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.loading {
+  font-size: 30px;
+  margin-top: 75px;
+}
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: left;
+  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+  animation: ellipsis steps(4,end) 900ms infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: .85em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: .85em;    
   }
 }
