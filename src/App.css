@@ -37,7 +37,7 @@
 .loading {
   font-size: 30px;
   margin-top: 75px;
-  font-style: italic;
+  font-style: oblique;
 }
 
 .loading:after {
@@ -53,13 +53,13 @@
 
 @keyframes ellipsis {
   to {
-    width: .85em;    
+    width: .74em;    
   }
 }
 
 @-webkit-keyframes ellipsis {
   to {
-    width: .85em;    
+    width: .74em;    
   }
 }
 
@@ -74,5 +74,5 @@
 
 .subcenter {
   font-style: oblique;
-  margin-bottom: 70px;
+  margin-bottom: 75px;
 }

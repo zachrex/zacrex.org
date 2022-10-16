@@ -15,7 +15,7 @@ function App() {
         
         
         <header class = "loading">
-          Website Coming Soon
+          Website Coming Soon 
         </header>
         
       </header>
