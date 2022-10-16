@@ -5,8 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="center">
-          Zac Rex
+        <p className="center">Zac Rex</p>
+        
+        <p className="subcenter">
+            Professional Schmuck
         </p>
         
         <img src={logo} className="App-logo" alt="logo" />
