@@ -37,6 +37,7 @@
 .loading {
   font-size: 30px;
   margin-top: 75px;
+  font-style: italic;
 }
 
 .loading:after {
@@ -60,4 +61,11 @@
   to {
     width: .85em;    
   }
+}
+
+.center {
+  margin-bottom: 75px;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
 }
