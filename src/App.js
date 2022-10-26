@@ -5,18 +5,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="center">Zac Rex</p>
-        
+        <header className="center">
+          Zac Rex
+        </header>
         <p className="subcenter">
-            Professional Schmuck
+          Professional Dumb Dumb
         </p>
         
         <img src={logo} className="App-logo" alt="logo" />
         
         
-        <header class = "loading">
+        <p class = "loading">
           Website Coming Soon 
-        </header>
+        </p>
         
       </header>
     </div>
