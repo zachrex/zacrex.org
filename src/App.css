@@ -2,16 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #fe76fc;
@@ -25,55 +17,3 @@
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.loading {
-  font-size: 30px;
-  margin-top: 75px;
-  font-style: oblique;
-}
-
-.loading:after {
-  overflow: hidden;
-  display: inline-block;
-  vertical-align: bottom;
-  text-align: left;
-  -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
-  animation: ellipsis steps(4,end) 900ms infinite;
-  content: "\2026"; /* ascii code for the ellipsis character */
-  width: 0px;
-}
-
-@keyframes ellipsis {
-  to {
-    width: .74em;    
-  }
-}
-
-@-webkit-keyframes ellipsis {
-  to {
-    width: .74em;    
-  }
-}
-
-.center {
-  margin-top: -30px;
-  margin-bottom: -15px;
-  font-size: 45px;
-  font-style: oblique;
-  font-weight: bold;
-  text-decoration: underline;
-
-}
-
-.subcenter {
-  font-style: oblique;
-  margin-bottom: 75px;
-}
